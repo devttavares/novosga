@@ -1,0 +1,13 @@
+twig:
+    file_name_pattern: '*.twig'
+    form_themes:
+        - theme.html.twig
+    globals:
+        locale: "%locale%"
+        version: "%version%"
+        title: "%title%"
+        mercure_url: '%mercure_url%'
+
+when@test:
+    twig:
+        strict_variables: true
